@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
+                "file": "stream_materials/stream_01_electric_geula_awakening/LINKS.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "LINKS"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
+                "file": "stream_materials/stream_01_electric_geula_awakening/LINKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for LINKS"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
+                "file": "stream_materials/stream_01_electric_geula_awakening/LINKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from LINKS"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
+                "file": "stream_materials/stream_01_electric_geula_awakening/LINKS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of LINKS"
             }
           }
         ]
@@ -171,16 +171,16 @@
   },
   "active": "84d7e10a7022cde7",
   "lastOpenFiles": [
+    "stream_materials/stream_01_electric_geula_awakening/PROJECT_DESCRIPTION.md",
+    "stream_materials/stream_01_electric_geula_awakening/QUESTIONS.md",
+    "stream_materials/stream_01_electric_geula_awakening/README.md",
     "stream_materials/stream_01_electric_geula_awakening/POST_STREAM.md",
     "stream_materials/stream_01_electric_geula_awakening/CHECKLIST.md",
     "stream_materials/stream_01_electric_geula_awakening/LINKS.md",
     "⚡ רשימת שידורים – LightCast - Electric Geula Sessions.md",
-    "stream_materials/stream_01_electric_geula_awakening/PROJECT_DESCRIPTION.md",
     "stream_materials/stream_01_electric_geula_awakening/MUSIC.md",
-    "stream_materials/stream_01_electric_geula_awakening/QUESTIONS.md",
     "stream_materials/stream_01_electric_geula_awakening/KEY_POINTS.md",
     "stream_materials/stream_01_electric_geula_awakening/SCRIPT.md",
-    "stream_materials/stream_01_electric_geula_awakening/README.md",
     "stream_materials/stream_01_electric_geula_awakening",
     "stream_materials",
     "guides/09_technical_notes.html",
