@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "c66f05484c84a950",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8bfc7da1945aa49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84d7e10a7022cde7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CHANGELOG.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHANGELOG"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e38f266a59035cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "43f6bb73237fcc21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12a74b2343406d80",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "17035e06426f3b71",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "135f11cba48f8f50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd825d10b1f7ca09",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2e5eabba0729f59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb51a6644542659f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CHANGELOG.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CHANGELOG"
+            }
+          },
+          {
+            "id": "218a52ba0c7ba877",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CHANGELOG.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CHANGELOG"
+            }
+          },
+          {
+            "id": "39dc0962c65df592",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3ec0ef69e78e7a72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CHANGELOG.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CHANGELOG"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "84d7e10a7022cde7",
+  "lastOpenFiles": [
+    "ROADMAP.md",
+    "website/scripts.js",
+    "website/styles.css",
+    "website/index.html",
+    "README.md",
+    "website",
+    "docs/02_התאמה_אישית_ושיח.md",
+    "media",
+    "community/CODE_OF_CONDUCT.md",
+    "community/COMMUNITY_GUIDELINES.md",
+    "community/CONTRIBUTORS.md",
+    "community",
+    "docs/09_הערות_טכניות_שידור.md",
+    "docs/08_תבניות_ללייבים_עתידיים.md",
+    "docs/07_הנחיות_תמונה_ממוזערת.md",
+    "docs/06_תיאור_פלייליסט.md",
+    "docs/01_מדריך_הקמה_ליוטיוב.md",
+    "docs/05_תסריט_לשידור_ראשון.md",
+    "docs/04_תכנית_היערכות_לשידור.md",
+    "docs/03_נראות_וזמנים.md",
+    "CHANGELOG.md"
+  ]
+}

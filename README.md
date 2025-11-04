@@ -97,7 +97,7 @@ LightCast_ElectricGeula/
 
 | שלב | שם השידור                 | תיאור                           | סטטוס     |
 | --- | ------------------------- | ------------------------------- | --------- |
-| 1   | גאולה בנעימים – ההתעוררות | השידור הראשון והיסטורי של הסדרה | ✅ הושלם   |
+| 1   | גאולה בנעימים – ההתעוררות | השידור הראשון והיסטורי של הסדרה | 🔴 בשידור חי | [קישור](https://youtube.com/live/lf7FLu1lMvE?feature=share) |
 | 2   | שידור הניצוצות            | בניית לוח שידורים קבוע          | 🔄 בתהליך |
 | 3   | שיחות אור וזרימה          | אירוחים, מוזיקה ולייבים משותפים | 🔲 מתוכנן |
 | 4   | אולפן הקוד האלוקי         | פיתוח פלטפורמת LightCast עצמאית | 🧭 חזון   |
@@ -111,6 +111,8 @@ LightCast_ElectricGeula/
 
 📅 **תאריך:** ג׳ בחשוון תשפ״ו (4.11.2025)
 🕓 **שעה:** 04:00 לפנות בוקר (שעון ישראל)
+🔴 **שידור חי עכשיו:** [https://youtube.com/live/lf7FLu1lMvE?feature=share](https://youtube.com/live/lf7FLu1lMvE?feature=share)
+
 💫 **קרדיטים:**
 AnLoMinus © | פרויקט: *LightCast – Electric Geula Sessions (LC_EG)*
 GitHub: [AnLoMinus](https://github.com/AnLoMinus)
