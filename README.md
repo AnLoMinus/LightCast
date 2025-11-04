@@ -1,5 +1,7 @@
 # ⚡ לייטקאסט – גאולה בנעימים (LightCast – Electric Geula Sessions)
 
+<img width="1024" height="1024" alt="Que la luz ilumine el universo" src="https://github.com/user-attachments/assets/a416e090-c1bc-426d-a0b9-67c2a07a1009" />
+
 ## 🌍 מבנה מאגר RepoCraft בעברית מלא
 
 ---
