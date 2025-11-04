@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡ כותרת - שלב 2 – שידור הניצוצות.md",
+                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⚡ כותרת - שלב 2 – שידור הניצוצות"
+              "title": "README"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡ רשימת שידורים – LightCast - Electric Geula Sessions.md",
+                "file": "stream_materials/stream_01_electric_geula_awakening/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ⚡ רשימת שידורים – LightCast - Electric Geula Sessions"
+              "title": "Outline of README"
             }
           }
         ]
@@ -167,13 +169,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "12a74b2343406d80",
+  "active": "84d7e10a7022cde7",
   "lastOpenFiles": [
+    "stream_materials/stream_01_electric_geula_awakening/POST_STREAM.md",
+    "stream_materials/stream_01_electric_geula_awakening/CHECKLIST.md",
+    "stream_materials/stream_01_electric_geula_awakening/LINKS.md",
+    "⚡ רשימת שידורים – LightCast - Electric Geula Sessions.md",
+    "stream_materials/stream_01_electric_geula_awakening/PROJECT_DESCRIPTION.md",
+    "stream_materials/stream_01_electric_geula_awakening/MUSIC.md",
+    "stream_materials/stream_01_electric_geula_awakening/QUESTIONS.md",
+    "stream_materials/stream_01_electric_geula_awakening/KEY_POINTS.md",
+    "stream_materials/stream_01_electric_geula_awakening/SCRIPT.md",
+    "stream_materials/stream_01_electric_geula_awakening/README.md",
+    "stream_materials/stream_01_electric_geula_awakening",
+    "stream_materials",
+    "guides/09_technical_notes.html",
+    "guides/08_future_streams_templates.html",
+    "guides/07_thumbnail_guidelines.html",
+    "guides/06_playlist_description.html",
+    "guides/05_first_stream_script.html",
+    "guides/04_preparation.html",
+    "guides/03_visibility_timing.html",
+    "guides/02_chat_customization.html",
     "STREAMS_SCHEDULE.md",
     "⚡ כותרת - שלב 2 – שידור הניצוצות.md",
-    "⚡ רשימת שידורים – LightCast - Electric Geula Sessions.md",
     "ROADMAP.md",
-    "schedule.yml",
     "CONTRIBUTORS.md",
     "COMMUNITY_GUIDELINES.md",
     "CODE_OF_CONDUCT.md",
@@ -182,27 +202,10 @@
     "docs/11_תבנית_שידור_סטנדרטית.md",
     "docs/10_לוח_שידורים_אוטומטי.md",
     "CHANGELOG.md",
-    "styles.css",
-    "scripts.js",
-    "index.html",
-    "website/scripts.js",
-    "website/styles.css",
-    "website/index.html",
     "README.md",
-    "website",
     "docs/02_התאמה_אישית_ושיח.md",
-    "media",
     "community/CODE_OF_CONDUCT.md",
     "community/COMMUNITY_GUIDELINES.md",
-    "community/CONTRIBUTORS.md",
-    "community",
-    "docs/09_הערות_טכניות_שידור.md",
-    "docs/08_תבניות_ללייבים_עתידיים.md",
-    "docs/07_הנחיות_תמונה_ממוזערת.md",
-    "docs/06_תיאור_פלייליסט.md",
-    "docs/01_מדריך_הקמה_ליוטיוב.md",
-    "docs/05_תסריט_לשידור_ראשון.md",
-    "docs/04_תכנית_היערכות_לשידור.md",
-    "docs/03_נראות_וזמנים.md"
+    "community/CONTRIBUTORS.md"
   ]
 }

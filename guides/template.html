@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} – LightCast Electric Geula</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .guide-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .guide-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .guide-content h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .guide-content h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+        .guide-content h4 {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        .guide-content p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .guide-content ul, .guide-content ol {
+            margin-bottom: 1rem;
+            padding-right: 2rem;
+        }
+        .guide-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.7;
+        }
+        .guide-content code {
+            background: var(--bg-alt);
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', monospace;
+        }
+        .guide-content blockquote {
+            border-right: 4px solid var(--primary-color);
+            padding-right: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>⚡ LightCast</h1>
+                <p class="subtitle">Electric Geula Sessions <span class="version-badge">v1.2.0</span></p>
+            </div>
+            <nav class="nav">
+                <a href="../index.html" class="nav-link">בית</a>
+                <a href="../index.html#vision" class="nav-link">חזון ומסר</a>
+                <a href="../index.html#guides" class="nav-link">מדריכים</a>
+                <a href="../index.html#community" class="nav-link">קהילה</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Guide Content -->
+    <section class="section">
+        <div class="container">
+            <div class="guide-content">
+                <a href="../index.html#guides" class="back-link">← חזרה למדריכים</a>
+                {{CONTENT}}
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>⚡ LightCast</h4>
+                    <p>Electric Geula Sessions</p>
+                    <p>חיבור בין קודש, קוד ויצירה</p>
+                </div>
+                <div class="footer-section">
+                    <h4>קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/AnLoMinus/LightCast" target="_blank">GitHub</a></li>
+                        <li><a href="../index.html">בית</a></li>
+                        <li><a href="../index.html#guides">מדריכים</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Powered by Divine Sparks ⚡</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>
+

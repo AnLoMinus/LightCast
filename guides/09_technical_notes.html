@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔧 הערות טכניות שידור – LightCast Electric Geula</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .guide-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-md);
+        }
+        .guide-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .guide-content h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        .guide-content h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+        .guide-content h4 {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        .guide-content p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .guide-content ul, .guide-content ol {
+            margin-bottom: 1.5rem;
+            padding-right: 2rem;
+        }
+        .guide-content li {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .guide-content code {
+            background: var(--bg-alt);
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', monospace;
+            color: var(--primary-color);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            background: var(--bg-alt);
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>⚡ LightCast</h1>
+                <p class="subtitle">Electric Geula Sessions <span class="version-badge">v1.2.0</span></p>
+            </div>
+            <nav class="nav">
+                <a href="../index.html" class="nav-link">בית</a>
+                <a href="../index.html#vision" class="nav-link">חזון ומסר</a>
+                <a href="../index.html#guides" class="nav-link">מדריכים</a>
+                <a href="../index.html#community" class="nav-link">קהילה</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="guide-content">
+                <a href="../index.html#guides" class="back-link">← חזרה למדריכים</a>
+                <h1>🔧 הערות טכניות שידור – LightCast Electric Geula</h1>
+<p>הגדרות מצלמה, OBS, סאונד ותאורה לשידורים איכותיים.</p>
+<h2>🎥 הגדרות מצלמה</h2>
+<h3>מצלמה חיצונית (מומלץ)</h3>
+<strong>המלצות:</strong>
+<ul>
+<li><strong>רזולוציה:</strong> 1080p (1920x1080) או 720p (1280x720)</li>
+<li><strong>FPS:</strong> 30 או 60</li>
+<li><strong>איכות:</strong> חדה וברורה</li>
+</ul>
+<strong>מיקום:</strong>
+<ul>
+<li><strong>גובה:</strong> בגובה העיניים או מעט מעל</li>
+<li><strong>מרחק:</strong> 50-80 ס"מ מהמצלמה</li>
+<li><strong>זווית:</strong> ישירה או מעט מלמעלה</li>
+</ul>
+<strong>הגדרות נוספות:</strong>
+<ul>
+<li><strong>Auto Focus:</strong> מופעל (אם יש)</li>
+<li><strong>Exposure:</strong> אוטומטי (או ידני אם צריך)</li>
+<li><strong>White Balance:</strong> אוטומטי (או ידני אם צריך)</li>
+</ul>
+<h3>מצלמה מובנית (אם אין חיצונית)</h3>
+<strong>הגדרות:</strong>
+<ul>
+<li><strong>רזולוציה:</strong> מקסימום אפשרי (בדרך כלל 720p)</li>
+<li><strong>FPS:</strong> 30</li>
+<li><strong>איכות:</strong> הכי טוב שאפשר</li>
+</ul>
+<strong>מיקום:</strong>
+<ul>
+<li><strong>גובה:</strong> בגובה העיניים</li>
+<li><strong>מרחק:</strong> 50-80 ס"מ</li>
+<li><strong>זווית:</strong> ישירה</li>
+</ul>
+<h2>🎙️ הגדרות סאונד</h2>
+<h3>מיקרופון חיצוני (מומלץ)</h3>
+<strong>המלצות:</strong>
+<ul>
+<li><strong>USB Microphone:</strong> קל לשימוש, איכות טובה</li>
+<li><strong>XLR Microphone:</strong> מקצועי יותר (דורש interface)</li>
+<li><strong>Lavaliere Mic:</strong> נוח לניידות</li>
+</ul>
+<strong>הגדרות:</strong>
+<ul>
+<li><strong>Sample Rate:</strong> 48kHz (מומלץ)</li>
+<li><strong>Bit Depth:</strong> 16-bit (מספיק) או 24-bit (מקצועי)</li>
+<li><strong>רמת קול:</strong> לא חזק מדי, לא חלש מדי (70-80%)</li>
+</ul>
+<strong>מיקום:</strong>
+<ul>
+<li><strong>מרחק:</strong> 20-30 ס"מ מהפה</li>
+<li><strong>זווית:</strong> מעט מעל הפה (לא ישירות)</li>
+<li><strong>הימנעות:</strong> נשימות חזקות, רעש רקע</li>
+</ul>
+<h3>מיקרופון מובנה (אם אין חיצוני)</h3>
+<strong>הגדרות:</strong>
+<ul>
+<li><strong>רמת קול:</strong> 70-80%</li>
+<li><strong>מיקום:</strong> קרוב ככל האפשר</li>
+<li><strong>הימנעות:</strong> רעש רקע, הדהוד</li>
+</ul>
+<h3>עיבוד אודיו ב-OBS</h3>
+<strong>Filters:</strong>
+<ul>
+<li><strong>Noise Suppression:</strong> מופעל (אם יש רעש רקע)</li>
+<li><strong>Noise Gate:</strong> מופעל (אם יש רעש רקע)</li>
+<li><strong>Compressor:</strong> מופעל (לשינוי עוצמת הקול)</li>
+<li><strong>Gain:</strong> התאמה לפי הצורך</li>
+</ul>
+<h2>💡 הגדרות תאורה</h2>
+<h3>תאורה קדמית (חובה)</h3>
+<strong>סוג:</strong>
+<ul>
+<li><strong>Ring Light:</strong> מומלץ (אור רך ומאוזן)</li>
+<li><strong>Softbox:</strong> מקצועי (אור רך מאוד)</li>
+<li><strong>LED Panel:</strong> גמיש (אור בהיר)</li>
+</ul>
+<strong>מיקום:</strong>
+<ul>
+<li><strong>גובה:</strong> מעט מעל העיניים</li>
+<li><strong>מרחק:</strong> 50-80 ס"מ מהפנים</li>
+<li><strong>זווית:</strong> 45 מעלות מלמעלה</li>
+</ul>
+<strong>הגדרות:</strong>
+<ul>
+<li><strong>עוצמה:</strong> מספיק אור (לא חזק מדי)</li>
+<li><strong>טמפרטורה:</strong> 5500K (אור יום) או 3200K (אור חם)</li>
+<li><strong>צבע:</strong> לבן (לא צהוב או כחול)</li>
+</ul>
+<h3>תאורה אחורית (אופציונלי)</h3>
+<strong>סוג:</strong>
+<ul>
+<li><strong>LED Strip:</strong> קל לשימוש</li>
+<li><strong>Lamp:</strong> פשוט ומזמין</li>
+</ul>
+<strong>מיקום:</strong>
+<ul>
+<li><strong>מאחורה:</strong> מאחורי הראש</li>
+<li><strong>גובה:</strong> מעט מעל הראש</li>
+<li><strong>עוצמה:</strong> עדין (לא חזק)</li>
+</ul>
+<strong>צבע:</strong>
+<ul>
+<li><strong>צבע עדין:</strong> כחול, סגול, או זהב</li>
+<li><strong>או לבן:</strong> לבן עדין</li>
+</ul>
+<h3>תאורה טבעית (אם יש)</h3>
+<strong>מיקום:</strong>
+<ul>
+<li><strong>חלון:</strong> מול החלון (אור יום)</li>
+<li><strong>זמן:</strong> שעות הבוקר או אחר הצהריים (אור רך)</li>
+</ul>
+<strong>הימנעות:</strong>
+<ul>
+<li><strong>שמש ישירה:</strong> חזק מדי</li>
+<li><strong>צללים חזקים:</strong> לא רצוי</li>
+</ul>
+<h2>🖥️ הגדרות OBS Studio</h2>
+<h3>הגדרות וידאו</h3>
+<strong>Base Canvas Resolution:</strong>
+<ul>
+<li><strong>מומלץ:</strong> 1920x1080</li>
+<li><strong>מינימום:</strong> 1280x720</li>
+</ul>
+<strong>Output Resolution:</strong>
+<ul>
+<li><strong>מומלץ:</strong> 1920x1080</li>
+<li><strong>מינימום:</strong> 1280x720</li>
+</ul>
+<strong>FPS:</strong>
+<ul>
+<li><strong>מומלץ:</strong> 30</li>
+<li><strong>אופציונלי:</strong> 60 (אם המחשב חזק)</li>
+</ul>
+<h3>הגדרות שידור (Stream)</h3>
+<strong>Encoder:</strong>
+<ul>
+<li><strong>x264:</strong> טוב (אם המעבד חזק)</li>
+<li><strong>NVENC:</strong> מצוין (אם יש כרטיס מסך NVIDIA)</li>
+<li><strong>QuickSync:</strong> טוב (אם יש Intel)</li>
+</ul>
+<strong>Bitrate:</strong>
+<ul>
+<li><strong>720p:</strong> 2500-4000 kbps</li>
+<li><strong>1080p:</strong> 4000-6000 kbps</li>
+</ul>
+<strong>Keyframe Interval:</strong> 2 שניות
+<strong>Preset:</strong>
+<ul>
+<li><strong>x264:</strong> veryfast או faster</li>
+<li><strong>NVENC:</strong> Quality</li>
+</ul>
+<h3>הגדרות הקלטה (Recording)</h3>
+<strong>Format:</strong> MP4 (מומלץ)
+<strong>Encoder:</strong> זהה ל-Stream
+<strong>Bitrate:</strong> גבוה יותר מ-Stream (10000+ kbps)
+<h2>📐 הגדרות סצנה</h2>
+<h3>מקורות בסיסיים</h3>
+<ol>
+<li><strong>Video Capture Device</strong> (מצלמה)</li>
+</ol>
+<ul>
+<li><strong>Resolution:</strong> 1920x1080</li>
+<li><strong>FPS:</strong> 30 או 60</li>
+</ul>
+<ol>
+<li><strong>Audio Input Capture</strong> (מיקרופון)</li>
+</ol>
+<ul>
+<li><strong>Device:</strong> המיקרופון שלך</li>
+<li><strong>Sample Rate:</strong> 48kHz</li>
+</ul>
+<ol>
+<li><strong>Image</strong> (תמונות/לוגו)</li>
+</ol>
+<ul>
+<li><strong>Resolution:</strong> 1920x1080 (או לפי הצורך)</li>
+<li><strong>Format:</strong> PNG (עם שקיפות) או JPG</li>
+</ul>
+<ol>
+<li><strong>Text (GDI+)</strong> (טקסט)</li>
+</ol>
+<ul>
+<li><strong>Font:</strong> גדול וקריא (48-72px)</li>
+<li><strong>Color:</strong> בולט אבל לא צורם</li>
+</ul>
+<ol>
+<li><strong>Media Source</strong> (מוזיקה)</li>
+</ol>
+<ul>
+<li><strong>Format:</strong> MP3 או WAV</li>
+<li><strong>Loop:</strong> מופעל (אם צריך)</li>
+</ul>
+<h3>סדר מקורות</h3>
+<ol>
+<li><strong>רקע</strong> (אם יש) – תחתון</li>
+<li><strong>תמונה/לוגו</strong> – מעל רקע</li>
+<li><strong>מצלמה</strong> – מעל הכל</li>
+<li><strong>טקסט</strong> – מעל מצלמה (אם צריך)</li>
+<li><strong>מוזיקה</strong> – אודיו (נפרד)</li>
+</ol>
+<h2>🎚️ עיבוד וידאו</h2>
+<h3>Filters (אם צריך)</h3>
+<strong>Color Correction:</strong>
+<ul>
+<li><strong>Brightness:</strong> התאמה לפי התאורה</li>
+<li><strong>Contrast:</strong> התאמה לפי הצורך</li>
+<li><strong>Saturation:</strong> התאמה לפי הצורך</li>
+</ul>
+<strong>Sharpen:</strong>
+<ul>
+<li><strong>מופעל:</strong> אם צריך (לא יותר מדי)</li>
+</ul>
+<strong>Chroma Key:</strong>
+<ul>
+<li><strong>אם יש רקע ירוק/כחול:</strong> להסרה</li>
+</ul>
+<h2>🔌 חיבורים</h2>
+<h3>USB</h3>
+<ul>
+<li><strong>מצלמה:</strong> USB 3.0 (מומלץ)</li>
+<li><strong>מיקרופון:</strong> USB 2.0 או 3.0</li>
+<li><strong>כבלים:</strong> קצרים ככל האפשר (פחות הפרעות)</li>
+</ul>
+<h3>HDMI</h3>
+<ul>
+<li><strong>אם משתמש במצלמה עם HDMI:</strong> HDMI → Capture Card → USB</li>
+</ul>
+<h2>📊 בדיקות</h2>
+<h3>לפני כל שידור</h3>
+<ul>
+<li>[ ] בדיקת מצלמה (עובדת, חדה)</li>
+<li>[ ] בדיקת מיקרופון (עובד, ברור)</li>
+<li>[ ] בדיקת תאורה (מספיק אור)</li>
+<li>[ ] בדיקת OBS (כל המקורות עובדים)</li>
+<li>[ ] בדיקת Stream Key (נכון)</li>
+<li>[ ] בדיקת חיבור אינטרנט (יציב)</li>
+</ul>
+<h3>Test Stream</h3>
+<ul>
+<li>[ ] לחץ על "Test Stream" (אם זמין)</li>
+<li>[ ] בדוק את האיכות</li>
+<li>[ ] בדוק את האודיו</li>
+<li>[ ] בדוק את התאורה</li>
+</ul>
+<h2>🆘 פתרון בעיות נפוצות</h2>
+<h3>מצלמה לא עובדת</h3>
+<ol>
+<li>בדוק את החיבור</li>
+<li>הפעל מחדש את OBS</li>
+<li>בדוק את הגדרות המצלמה ב-OBS</li>
+<li>נסה מצלמה אחרת (אם יש)</li>
+</ol>
+<h3>מיקרופון לא עובד</h3>
+<ol>
+<li>בדוק את החיבור</li>
+<li>בדוק את הגדרות המיקרופון ב-OBS</li>
+<li>בדוק את הגדרות המיקרופון במחשב</li>
+<li>נסה מיקרופון אחר (אם יש)</li>
+</ol>
+<h3>איכות נמוכה</h3>
+<ol>
+<li>בדוק את Bitrate</li>
+<li>בדוק את רזולוציית המצלמה</li>
+<li>בדוק את חיבור האינטרנט</li>
+<li>בדוק את עומס המעבד</li>
+</ol>
+<h3>שידור לא יציב</h3>
+<ol>
+<li>בדוק את חיבור האינטרנט</li>
+<li>בדוק את Bitrate (אולי גבוה מדי)</li>
+<li>בדוק את עומס המעבד</li>
+<li>סגור אפליקציות מיותרות</li>
+</ol>
+<h2>💡 טיפים נוספים</h2>
+<ol>
+<li><strong>גיבוי:</strong> הקלט גם מקומית (OBS → Recording)</li>
+<li><strong>פשטות:</strong> אל תעשה יותר מדי מקורות (עומס)</li>
+<li><strong>איכות:</strong> תמיד תעדיף איכות על כמות</li>
+<li><strong>בדיקות:</strong> בדוק הכל לפני השידור</li>
+<li><strong>גמישות:</strong> אל תפחד לשנות אם צריך</li>
+</ol>
+<strong>נוצר על ידי:</strong> AnLoMinus ⚡  
+<strong>תאריך:</strong> 4.11.2025  
+<strong>Powered by Divine Sparks</strong> ✨
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--border-color);">
+                    <p><strong>נוצר על ידי:</strong> AnLoMinus ⚡</p>
+                    <p><strong>תאריך:</strong> 4.11.2025</p>
+                    <p><strong>Powered by Divine Sparks</strong> ✨</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>⚡ LightCast</h4>
+                    <p>Electric Geula Sessions</p>
+                    <p>חיבור בין קודש, קוד ויצירה</p>
+                </div>
+                <div class="footer-section">
+                    <h4>קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/AnLoMinus/LightCast" target="_blank">GitHub</a></li>
+                        <li><a href="../index.html">בית</a></li>
+                        <li><a href="../index.html#guides">מדריכים</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Powered by Divine Sparks ⚡</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>

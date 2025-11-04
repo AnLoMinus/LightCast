@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📺 מדריך הקמה ליוטיוב – LightCast Electric Geula</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .guide-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-md);
+        }
+        .guide-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .guide-content h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        .guide-content h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+        .guide-content h4 {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        .guide-content p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .guide-content ul, .guide-content ol {
+            margin-bottom: 1.5rem;
+            padding-right: 2rem;
+        }
+        .guide-content li {
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .guide-content code {
+            background: var(--bg-alt);
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', monospace;
+            color: var(--primary-color);
+        }
+        .guide-content blockquote {
+            border-right: 4px solid var(--primary-color);
+            padding-right: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            background: var(--bg-alt);
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateX(-5px);
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li::before {
+            content: "☐ ";
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>⚡ LightCast</h1>
+                <p class="subtitle">Electric Geula Sessions <span class="version-badge">v1.2.0</span></p>
+            </div>
+            <nav class="nav">
+                <a href="../index.html" class="nav-link">בית</a>
+                <a href="../index.html#vision" class="nav-link">חזון ומסר</a>
+                <a href="../index.html#guides" class="nav-link">מדריכים</a>
+                <a href="../index.html#community" class="nav-link">קהילה</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Guide Content -->
+    <section class="section">
+        <div class="container">
+            <div class="guide-content">
+                <a href="../index.html#guides" class="back-link">← חזרה למדריכים</a>
+                
+                <h1>📺 מדריך הקמה ליוטיוב – LightCast Electric Geula</h1>
+                <p>מדריך מלא ליצירת שידור חי (Live Stream) ביוטיוב עבור סדרת LightCast.</p>
+
+                <h2>🎯 שלב 1: הכנה ראשונית</h2>
+
+                <h3>1.1 יצירת ערוץ YouTube</h3>
+                <ul class="checklist">
+                    <li>היכנס ל-<a href="https://studio.youtube.com" target="_blank">YouTube Studio</a></li>
+                    <li>וודא שהערוץ מאומת (אם נדרש)</li>
+                    <li>בדוק את הגדרות הערוץ והפרטיות</li>
+                </ul>
+
+                <h3>1.2 הגדרות שידור חי</h3>
+                <ul class="checklist">
+                    <li>עבור ל-<strong>Content</strong> → <strong>Go Live</strong></li>
+                    <li>בחר <strong>Stream</strong> (במקום Mobile)</li>
+                    <li>העתק את <strong>Stream Key</strong> (נצטרך אותו ל-OBS)</li>
+                </ul>
+
+                <h2>🎥 שלב 2: הגדרת OBS Studio</h2>
+
+                <h3>2.1 התקנה</h3>
+                <ol>
+                    <li>הורד את <a href="https://obsproject.com/" target="_blank">OBS Studio</a></li>
+                    <li>התקן והפעל את התוכנה</li>
+                </ol>
+
+                <h3>2.2 הגדרות שידור</h3>
+                <ol>
+                    <li><strong>Settings</strong> → <strong>Stream</strong>
+                        <ul>
+                            <li><strong>Service:</strong> YouTube / YouTube - RTMP</li>
+                            <li><strong>Server:</strong> <code>rtmp://a.rtmp.youtube.com/live2</code></li>
+                            <li><strong>Stream Key:</strong> הדבק את המפתח שהעתקת מ-YouTube Studio</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>2.3 הגדרות וידאו</h3>
+                <ul>
+                    <li><strong>Settings</strong> → <strong>Video</strong>
+                        <ul>
+                            <li><strong>Base Canvas Resolution:</strong> 1920x1080</li>
+                            <li><strong>Output Resolution:</strong> 1920x1080</li>
+                            <li><strong>FPS:</strong> 30 או 60 (לפי יכולות המחשב)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>2.4 הגדרות אודיו</h3>
+                <ul>
+                    <li><strong>Settings</strong> → <strong>Audio</strong>
+                        <ul>
+                            <li><strong>Sample Rate:</strong> 48kHz</li>
+                            <li><strong>Desktop Audio Device:</strong> (בחר את המכשיר שלך)</li>
+                            <li><strong>Mic/Auxiliary Audio:</strong> (בחר את המיקרופון)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>🎨 שלב 3: עיצוב הסצנה</h2>
+
+                <h3>3.1 יצירת סצנה</h3>
+                <ol>
+                    <li>לחץ על <strong>+</strong> בתיבת <strong>Scenes</strong></li>
+                    <li>שם את הסצנה: "LightCast Electric Geula"</li>
+                </ol>
+
+                <h3>3.2 הוספת מקורות</h3>
+                <p>הוסף את המקורות הבאים (כל אחד בנפרד):</p>
+
+                <h4>מצלמה (Video Capture Device)</h4>
+                <ul>
+                    <li><strong>Source Type:</strong> Video Capture Device</li>
+                    <li><strong>Device:</strong> (בחר את המצלמה שלך)</li>
+                    <li><strong>Resolution:</strong> 1920x1080</li>
+                </ul>
+
+                <h4>תמונת רקע או Overlay</h4>
+                <ul>
+                    <li><strong>Source Type:</strong> Image</li>
+                    <li><strong>File:</strong> (בחר תמונת רקע או לוגו)</li>
+                </ul>
+
+                <h4>טקסט (Title/Subtitle)</h4>
+                <ul>
+                    <li><strong>Source Type:</strong> Text (GDI+)</li>
+                    <li><strong>Text:</strong> "LightCast – Electric Geula"</li>
+                    <li><strong>Font:</strong> בחר גופן נעים וקריא</li>
+                    <li><strong>Size:</strong> 48-72px</li>
+                </ul>
+
+                <h4>מוזיקת פתיחה/סיום</h4>
+                <ul>
+                    <li><strong>Source Type:</strong> Media Source</li>
+                    <li><strong>File:</strong> (בחר קובץ מוזיקה)</li>
+                </ul>
+
+                <h2>🔧 שלב 4: בדיקות לפני השידור</h2>
+
+                <h3>4.1 בדיקת איכות</h3>
+                <ul class="checklist">
+                    <li>בדוק את איכות הווידאו (ברור, חד, מואר היטב)</li>
+                    <li>בדוק את איכות האודיו (ברור, ללא רעש רקע)</li>
+                    <li>בדוק את התאורה (פנים מוארות היטב)</li>
+                </ul>
+
+                <h3>4.2 בדיקת חיבור</h3>
+                <ul class="checklist">
+                    <li>לחץ על <strong>Start Recording</strong> לבדיקה מקומית</li>
+                    <li>בדוק שההקלטה תקינה</li>
+                    <li>בדוק <strong>Test Stream</strong> (אם זמין ב-YouTube)</li>
+                </ul>
+
+                <h3>4.3 בדיקת תאורה</h3>
+                <ul class="checklist">
+                    <li>תאורה קדמית: אור רך מלפנים</li>
+                    <li>תאורה אחורית: אור עדין מאחורה (לא חובה)</li>
+                    <li>הימנעות מצללים חזקים</li>
+                </ul>
+
+                <h2>🚀 שלב 5: התחלת השידור</h2>
+
+                <h3>5.1 הכנות אחרונות</h3>
+                <ol>
+                    <li>סגור אפליקציות מיותרות (למעט OBS)</li>
+                    <li>כבה התראות במחשב</li>
+                    <li>הכן את התסריט/הערות</li>
+                    <li>ודא שהמיקרופון והמצלמה פועלים</li>
+                </ol>
+
+                <h3>5.2 התחלה</h3>
+                <ol>
+                    <li>ב-YouTube Studio: <strong>Go Live</strong> → הכנס <strong>Title</strong> ו-<strong>Description</strong></li>
+                    <li>ב-OBS: לחץ על <strong>Start Streaming</strong></li>
+                    <li>ב-YouTube: לחץ על <strong>Go Live</strong></li>
+                    <li>השידור התחיל! 🎉</li>
+                </ol>
+
+                <h2>📊 שלב 6: במהלך השידור</h2>
+
+                <h3>6.1 ניטור</h3>
+                <ul>
+                    <li>עקוב אחר <strong>YouTube Studio</strong> (צפיות, תגובות)</li>
+                    <li>בדוק את <strong>OBS</strong> (איכות שידור, FPS)</li>
+                    <li>שמור על קשר עין עם המצלמה</li>
+                </ul>
+
+                <h3>6.2 אינטראקציה</h3>
+                <ul>
+                    <li>קרא תגובות מהצ'אט</li>
+                    <li>ענה על שאלות</li>
+                    <li>שמור על אווירה חיובית ואור</li>
+                </ul>
+
+                <h2>🎬 שלב 7: סיום השידור</h2>
+                <ol>
+                    <li>ב-OBS: לחץ על <strong>Stop Streaming</strong></li>
+                    <li>ב-YouTube: לחץ על <strong>End Stream</strong></li>
+                    <li>שמור את ההקלטה (אם הקלטת)</li>
+                    <li>ערוך את הסרטון (אם רלוונטי)</li>
+                    <li>פרסם את הסרטון בערוץ</li>
+                </ol>
+
+                <h2>💡 טיפים נוספים</h2>
+                <ul>
+                    <li><strong>רשת יציבה:</strong> ודא שיש לך חיבור אינטרנט יציב (מומלץ חיבור קווי)</li>
+                    <li><strong>גיבוי:</strong> הקלט גם מקומית (OBS → Settings → Output → Recording)</li>
+                    <li><strong>הכנה:</strong> הכין הערות/תסריט לפני השידור</li>
+                    <li><strong>רגיעה:</strong> נשום עמוק, זה טבעי להיות קצת נרגש</li>
+                    <li><strong>אור:</strong> השתמש באור טבעי או בתאורה רכה</li>
+                </ul>
+
+                <h2>🆘 פתרון בעיות נפוצות</h2>
+
+                <h3>שידור לא מתחיל</h3>
+                <ul>
+                    <li>בדוק את ה-Stream Key</li>
+                    <li>בדוק את חיבור האינטרנט</li>
+                    <li>נסה להפעיל מחדש את OBS</li>
+                </ul>
+
+                <h3>איכות וידאו נמוכה</h3>
+                <ul>
+                    <li>בדוק את רזולוציית המצלמה</li>
+                    <li>בדוק את הגדרות OBS (Bitrate)</li>
+                    <li>ודא שהתאורה מספקת</li>
+                </ul>
+
+                <h3>בעיות אודיו</h3>
+                <ul>
+                    <li>בדוק את בחירת המיקרופון ב-OBS</li>
+                    <li>בדוק את רמת הקול (לא חזק מדי, לא חלש מדי)</li>
+                    <li>בדוק את רעש הרקע</li>
+                </ul>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--border-color);">
+                    <p><strong>נוצר על ידי:</strong> AnLoMinus ⚡</p>
+                    <p><strong>תאריך:</strong> 4.11.2025</p>
+                    <p><strong>Powered by Divine Sparks</strong> ✨</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>⚡ LightCast</h4>
+                    <p>Electric Geula Sessions</p>
+                    <p>חיבור בין קודש, קוד ויצירה</p>
+                </div>
+                <div class="footer-section">
+                    <h4>קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/AnLoMinus/LightCast" target="_blank">GitHub</a></li>
+                        <li><a href="../index.html">בית</a></li>
+                        <li><a href="../index.html#guides">מדריכים</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Powered by Divine Sparks ⚡</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>
+
