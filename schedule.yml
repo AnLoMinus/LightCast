@@ -1,0 +1,40 @@
+# לוח שידורים - LightCast Electric Geula
+# SparksTransmission (ST) - שלב 2
+
+schedule:
+  frequency: "weekly"  # weekly, bi-weekly, monthly
+  day: "friday"       # monday, tuesday, wednesday, thursday, friday, saturday, sunday
+  time: "20:00"       # שעון ישראל
+  duration: 60        # דקות
+
+upcoming_streams:
+  - date: "2025-11-08"
+    title: "שידור הניצוצות #1"
+    topic: "המשך ההתעוררות"
+    link: ""
+    status: "planned"
+  
+  - date: "2025-11-15"
+    title: "שידור הניצוצות #2"
+    topic: "ניצוצות של אור"
+    link: ""
+    status: "planned"
+  
+  - date: "2025-11-22"
+    title: "שידור הניצוצות #3"
+    topic: "חיבור קהילה"
+    link: ""
+    status: "planned"
+
+  - date: "2025-11-29"
+    title: "שידור הניצוצות #4"
+    topic: "מעגל האור"
+    link: ""
+    status: "planned"
+
+past_streams:
+  - date: "2025-11-04"
+    title: "גאולה בנעימים – ההתעוררות"
+    link: "https://youtube.com/live/lf7FLu1lMvE?feature=share"
+    status: "completed"
+
