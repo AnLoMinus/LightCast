@@ -526,6 +526,445 @@ body {
     font-weight: bold;
 }
 
+/* Schedule Table Section */
+.schedule-table-wrapper {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-md);
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 0.95rem;
+}
+
+.schedule-table thead {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+.schedule-table th {
+    padding: 1rem;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.schedule-table th:first-child {
+    border-top-right-radius: 0.75rem;
+}
+
+.schedule-table th:last-child {
+    border-top-left-radius: 0.75rem;
+}
+
+.schedule-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
+    vertical-align: top;
+}
+
+.schedule-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: rgba(99, 102, 241, 0.05);
+}
+
+.schedule-table tbody tr:last-child td:first-child {
+    border-bottom-right-radius: 0.75rem;
+}
+
+.schedule-table tbody tr:last-child td:last-child {
+    border-bottom-left-radius: 0.75rem;
+}
+
+.schedule-table td:first-child {
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+    width: 60px;
+}
+
+.schedule-table td:nth-child(2) {
+    font-weight: 600;
+    color: var(--text-primary);
+    min-width: 200px;
+}
+
+.schedule-table td:nth-child(3) {
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.schedule-table td:nth-child(4),
+.schedule-table td:nth-child(5) {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    max-width: 250px;
+}
+
+.schedule-table td:nth-child(6) {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.schedule-table td:nth-child(7) {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.schedule-notes {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--bg-alt);
+    border-radius: 1rem;
+    border-right: 4px solid var(--primary-color);
+}
+
+.schedule-notes h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.schedule-notes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.schedule-notes li {
+    padding: 0.5rem 0;
+    padding-right: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.schedule-notes li::before {
+    content: "✨";
+    position: absolute;
+    right: 0;
+}
+
+/* Vision Section */
+.section-vision {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%);
+}
+
+.vision-content {
+    display: grid;
+    gap: 3rem;
+}
+
+.vision-story,
+.vision-philosophy,
+.vision-journey,
+.vision-message,
+.vision-future {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-md);
+}
+
+.vision-story h3,
+.vision-philosophy h3,
+.vision-journey h3,
+.vision-message h3,
+.vision-future h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.vision-story p,
+.vision-future p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.philosophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.philosophy-card {
+    padding: 1.5rem;
+    background: var(--bg-alt);
+    border-radius: 0.75rem;
+    border-right: 3px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.philosophy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.philosophy-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.philosophy-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.philosophy-card p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.journey-timeline {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.journey-step {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: var(--bg-alt);
+    border-radius: 0.75rem;
+    border-right: 4px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.journey-step:hover {
+    transform: translateX(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.journey-number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.journey-content {
+    flex: 1;
+}
+
+.journey-content h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.journey-content p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+.message-box {
+    background: var(--bg-alt);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    border-right: 4px solid var(--primary-color);
+}
+
+.message-box p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+/* Journey Explanation Section */
+.journey-explanation {
+    display: grid;
+    gap: 3rem;
+}
+
+.journey-intro {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.journey-intro h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.journey-intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.progression-stages {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.stage {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-md);
+    border-right: 4px solid var(--primary-color);
+}
+
+.stage-number {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.stage-content h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.stage-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+.integration-content {
+    margin-top: 2rem;
+}
+
+.integration-content > p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.integration-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.integration-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.integration-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+}
+
+.integration-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.integration-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.integration-item p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.life-impact {
+    margin-top: 2rem;
+}
+
+.life-impact > p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.life-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.benefit {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-md);
+    border-top: 3px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+}
+
+.benefit h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+}
+
+.benefit p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.call-box {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow-xl);
+}
+
+.call-box p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.call-box p:last-child {
+    margin-bottom: 0;
+}
+
 /* Inspiration Section */
 .section-inspiration {
     background: var(--gradient-gold);
@@ -667,6 +1106,36 @@ html {
     .roadmap-status {
         font-size: 1.5rem;
     }
+
+    .schedule-table {
+        font-size: 0.85rem;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .schedule-table td:nth-child(4),
+    .schedule-table td:nth-child(5) {
+        max-width: 150px;
+        font-size: 0.8rem;
+    }
+
+    .philosophy-grid,
+    .integration-grid,
+    .life-benefits {
+        grid-template-columns: 1fr;
+    }
+
+    .journey-step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .journey-number {
+        margin: 0 auto 1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -684,6 +1153,21 @@ html {
 
     .container {
         padding: 0 15px;
+    }
+
+    .schedule-table {
+        font-size: 0.75rem;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 0.5rem 0.25rem;
+    }
+
+    .schedule-table td:nth-child(4),
+    .schedule-table td:nth-child(5) {
+        max-width: 100px;
+        font-size: 0.7rem;
     }
 }
 

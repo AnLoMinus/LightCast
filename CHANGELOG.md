@@ -128,6 +128,9 @@
 - העברת קבצי האתר (index.html, styles.css, scripts.js) לתיקיית השורש
 - הוספת תיעוד לשלב 2 - SparksTransmission (ST)
 - יצירת קובץ `schedule.yml` - לוח שידורים מרכזי מוכן לעריכה
+- יצירת קובץ `STREAMS_SCHEDULE.md` - רשימת שידורים מפורטת עם 10 שידורים מתוכננים
+- הוספת טבלת לוח שידורים מפורטת לאתר הראשי (index.html)
+- עיצוב CSS לטבלה עם תמיכה רספונסיבית
 
 ### 🎯 מטרות שלב 2
 
@@ -140,7 +143,8 @@
 
 - **סה"כ מדריכים:** 13 מדריכים (9 בשלב 1 + 4 בשלב 2)
 - **תיקיות:** 5 תיקיות
-- **קבצים חדשים בשלב 2:** 5 קבצים (4 מדריכים + 1 schedule.yml)
+- **קבצים חדשים בשלב 2:** 6 קבצים (4 מדריכים + 1 schedule.yml + 1 STREAMS_SCHEDULE.md)
+- **לוח שידורים:** 10 שידורים מתוכננים לעונה הראשונה
 
 ---
 

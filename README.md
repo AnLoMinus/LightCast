@@ -20,6 +20,8 @@ LightCast_ElectricGeula/
 ├── LICENSE                          # רישיון פתוח עם קרדיט לשימוש ושיתוף
 ├── CHANGELOG.md                     # עדכונים וגרסאות
 ├── ROADMAP.md                       # תוכנית פיתוח עתידית ללייבים הבאים
+├── STREAMS_SCHEDULE.md              # רשימת שידורים מפורטת - לוח שיעורים ולייבים
+├── schedule.yml                     # לוח שידורים במבנה YAML
 ├── .github/
 │   ├── workflows/
 │   │   └── auto-sync.yml            # סנכרון אוטומטי עם GitHub Actions
@@ -90,6 +92,14 @@ LightCast_ElectricGeula/
 **רישיון:** רישיון פתוח לשיתוף ולימוד עם קרדיט  
 **GitHub:** [AnLoMinus](https://github.com/AnLoMinus)
 ```
+
+---
+
+## 📅 לוח שידורים מפורט
+
+לוח שידורים מלא עם 10 שידורים מתוכננים לעונה הראשונה:
+
+📋 [STREAMS_SCHEDULE.md](STREAMS_SCHEDULE.md) - רשימת שידורים מפורטת
 
 ---
 
